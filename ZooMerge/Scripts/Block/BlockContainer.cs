@@ -47,7 +47,7 @@ public class BlockContainer
             int x = _random.Next(0, ArenaSize.SizeX);
             int y = _random.Next(0, ArenaSize.SizeY);
 
-            if (!IsPositionOccupied(x, y))
+            if (IsPositionOccupied(x, y) == false)
             {
                 Add(x, y, 1);
                 return;

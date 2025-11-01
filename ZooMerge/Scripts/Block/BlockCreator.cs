@@ -7,7 +7,7 @@ using System.Windows.Media;
 public class BlockCreator
 {
     private static readonly string[] SpritePaths = new string[]
-        {
+    {
         "Sprites/level1.png",
         "Sprites/level2.png",
         "Sprites/level3.png",
@@ -15,16 +15,37 @@ public class BlockCreator
         "Sprites/level5.png",
         "Sprites/level6.png",
         "Sprites/level7.png",
-        };
+    };
 
     public static IReadOnlyList<string> ReadOnlyLevelColors => SpritePaths;
 
-    public static Image Create(int level = 1)
+    public static Border Create(int level = 1)
     {
-        return new Image()
+        var image = new Image()
         {
-            Source = CreateImageSource(SpritePaths[0]),
+            Source = CreateImageSource(SpritePaths[level - 1]),
+            Stretch = Stretch.UniformToFill
         };
+
+        var border = new Border()
+        {
+            Child = image,
+            CornerRadius = new CornerRadius(20),
+            ClipToBounds = true,
+            Margin = new Thickness(10)
+        };
+
+        border.Loaded += (s, e) =>
+        {
+            border.Clip = new RectangleGeometry()
+            {
+                RadiusX = border.CornerRadius.TopLeft,
+                RadiusY = border.CornerRadius.TopLeft,
+                Rect = new Rect(0, 0, border.ActualWidth, border.ActualHeight)
+            };
+        };
+
+        return border;
     }
 
     public static ImageSource CreateImageSource(string path)

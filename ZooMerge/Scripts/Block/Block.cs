@@ -2,7 +2,7 @@
 
 public class Block
 {
-    public Block(Image uIElement, int level, int xPosition, int yPosition)
+    public Block(Border uIElement, int level, int xPosition, int yPosition)
     {
         UIElement = uIElement;
         Level = level;
@@ -12,7 +12,7 @@ public class Block
         UpdatePosition(XPosition, YPosition);
     }
 
-    public Image UIElement { get; private set; }
+    public Border UIElement { get; private set; }
     public int Level { get; private set; }
     public int XPosition { get; private set; }
     public int YPosition { get; private set; }
@@ -33,6 +33,9 @@ public class Block
 
         Level++;
 
-        UIElement.Source = BlockCreator.CreateImageSource(BlockCreator.ReadOnlyLevelColors[Level - 1]);
+        if (UIElement.Child is Image image)
+        {
+            image.Source = BlockCreator.CreateImageSource(BlockCreator.ReadOnlyLevelColors[Level - 1]);
+        }
     }
 }

@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZooMerge"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="1000"
+        Title="MainWindow" Height="800" Width="800"
         ResizeMode="NoResize"
         WindowStyle="SingleBorderWindow">
-    <Grid Background="#FF232323" Name="Grid_SpaceInput" Focusable="True">
+    <Grid Background="#FF484C43" Name="Grid_SpaceInput" Focusable="True">
         <Grid Grid.Row="1" Name="Grid_BlockContainer">
         </Grid>
     </Grid>

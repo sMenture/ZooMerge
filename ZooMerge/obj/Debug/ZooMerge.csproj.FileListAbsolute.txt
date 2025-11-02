@@ -30,3 +30,34 @@ E:\ZooMerge\ZooMerge\obj\Debug\ZooMerge.csproj.GenerateResource.cache
 E:\ZooMerge\ZooMerge\obj\Debug\ZooMerge.csproj.CoreCompileInputs.cache
 E:\ZooMerge\ZooMerge\obj\Debug\ZooMerge.exe
 E:\ZooMerge\ZooMerge\obj\Debug\ZooMerge.pdb
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\bin\Debug\ZooMerge.exe.config
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\bin\Debug\ZooMerge.exe
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\bin\Debug\ZooMerge.pdb
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge.csproj.AssemblyReference.cache
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\MainWindow.g.cs
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\App.g.cs
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge_MarkupCompile.cache
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge_MarkupCompile.lref
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\MainWindow.baml
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge.g.resources
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge.Properties.Resources.resources
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge.csproj.GenerateResource.cache
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge.csproj.CoreCompileInputs.cache
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge.exe
+C:\Users\axell\Desktop\Новая папка (7)\ZooMerge-main\ZooMerge\obj\Debug\ZooMerge.pdb
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\bin\Debug\ZooMerge.exe.config
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\bin\Debug\ZooMerge.exe
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\bin\Debug\ZooMerge.pdb
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge.csproj.AssemblyReference.cache
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge.exe.config
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\MainWindow.g.cs
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\App.g.cs
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge_MarkupCompile.cache
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge_MarkupCompile.lref
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\MainWindow.baml
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge.g.resources
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge.Properties.Resources.resources
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge.csproj.GenerateResource.cache
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge.csproj.CoreCompileInputs.cache
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge.exe
+C:\Users\axell\Desktop\Новая папка (11)\ZooMerge\ZooMerge\obj\Debug\ZooMerge.pdb

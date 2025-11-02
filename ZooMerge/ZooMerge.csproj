@@ -56,7 +56,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Scripts\Block\Block.cs" />
-    <Compile Include="Scripts\Block\BlockAnimator.cs" />
     <Compile Include="Scripts\Block\BlockArena.cs" />
     <Compile Include="Scripts\Block\BlockContainer.cs" />
     <Compile Include="Scripts\Block\BlockCreator.cs" />

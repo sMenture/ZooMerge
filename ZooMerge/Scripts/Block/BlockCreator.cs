@@ -15,6 +15,9 @@ public class BlockCreator
         "Sprites/level5.png",
         "Sprites/level6.png",
         "Sprites/level7.png",
+        "Sprites/level8.png",
+        "Sprites/level9.png",
+        "Sprites/level10.png",
     };
 
     public static IReadOnlyList<string> ReadOnlyLevelColors => SpritePaths;

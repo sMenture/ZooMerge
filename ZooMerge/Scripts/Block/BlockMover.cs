@@ -11,53 +11,29 @@ public class BlockMover : IReadOnlyBlockMover
         ArenaSize = arenaSize;
     }
 
-    public void MoveHorizontal(int step)
+    public void MoveHorizontal(int step) => Move(step, true);
+
+    public void MoveVertical(int step) => Move(step, false);
+
+    private void Move(int step, bool isHorizontal)
     {
         if (step == 0) return;
 
         bool moved = false;
         bool merged = false;
 
-        var sortedBlocks = step > 0
-            ? BlockContainer.Blocks.OrderByDescending(b => b.XPosition)
-            : BlockContainer.Blocks.OrderBy(b => b.XPosition);
+        var sortedBlocks = GetSortedBlocks(step, isHorizontal);
 
         foreach (var block in sortedBlocks.ToList())
         {
-            int newX = block.XPosition;
-            bool canMove = true;
+            var (newPosition, wasMoved, wasMerged) = CalculateNewPosition(block, step, isHorizontal);
 
-            while (canMove)
+            moved |= wasMoved;
+            merged |= wasMerged;
+
+            if (newPosition != GetCurrentPosition(block, isHorizontal) && BlockContainer.Blocks.Contains(block))
             {
-                int nextX = newX + step;
-
-                if (nextX < 0 || nextX >= ArenaSize.SizeX)
-                {
-                    canMove = false;
-                    break;
-                }
-
-                var targetBlock = BlockContainer.GetBlockAt(nextX, block.YPosition);
-
-                if (targetBlock == null)
-                {
-                    newX = nextX;
-                    moved = true;
-                }
-                else if (targetBlock.Level == block.Level && targetBlock != block)
-                {
-                    BlockContainer.MergeBlocks(targetBlock, block);
-                    newX = nextX;
-                    merged = true;
-                    canMove = false;
-                }
-                else
-                    canMove = false;
-            }
-
-            if (newX != block.XPosition && BlockContainer.Blocks.Contains(block))
-            {
-                block.UpdatePosition(newX, block.YPosition);
+                UpdatePosition(block, newPosition, isHorizontal);
             }
         }
 
@@ -65,57 +41,82 @@ public class BlockMover : IReadOnlyBlockMover
             BlockContainer.CreateRandomPosition();
     }
 
-    public void MoveVertical(int step)
+    private IOrderedEnumerable<Block> GetSortedBlocks(int step, bool isHorizontal)
     {
-        if (step == 0) return;
+        if (isHorizontal)
+        {
+            return step > 0
+                ? BlockContainer.Blocks.OrderByDescending(b => b.XPosition)
+                : BlockContainer.Blocks.OrderBy(b => b.XPosition);
+        }
 
+        return step > 0
+            ? BlockContainer.Blocks.OrderByDescending(b => b.YPosition)
+            : BlockContainer.Blocks.OrderBy(b => b.YPosition);
+    }
+
+    private (int newPosition, bool moved, bool merged) CalculateNewPosition(Block block, int step, bool isHorizontal)
+    {
+        int currentPosition = GetCurrentPosition(block, isHorizontal);
+        int newPosition = currentPosition;
         bool moved = false;
         bool merged = false;
 
-        var sortedBlocks = step > 0
-            ? BlockContainer.Blocks.OrderByDescending(b => b.YPosition)
-            : BlockContainer.Blocks.OrderBy(b => b.YPosition);
-
-        foreach (var block in sortedBlocks.ToList())
+        bool canMove = true;
+        while (canMove)
         {
-            int newY = block.YPosition;
-            bool canMove = true;
+            int nextPosition = newPosition + step;
 
-            while (canMove)
+            if (!IsPositionValid(nextPosition, isHorizontal))
             {
-                int nextY = newY + step;
-
-                if (nextY < 0 || nextY >= ArenaSize.SizeY)
-                {
-                    canMove = false;
-                    break;
-                }
-
-                var targetBlock = BlockContainer.GetBlockAt(block.XPosition, nextY);
-
-                if (targetBlock == null)
-                {
-                    newY = nextY;
-                    moved = true;
-                }
-                else if (targetBlock.Level == block.Level && targetBlock != block)
-                {
-                    BlockContainer.MergeBlocks(targetBlock, block);
-                    newY = nextY;
-                    merged = true;
-                    canMove = false;
-                }
-                else
-                    canMove = false;
+                canMove = false;
+                break;
             }
 
-            if (newY != block.YPosition && BlockContainer.Blocks.Contains(block))
+            var targetBlock = GetTargetBlock(block, nextPosition, isHorizontal);
+
+            if (targetBlock == null)
             {
-                block.UpdatePosition(block.XPosition, newY);
+                newPosition = nextPosition;
+                moved = true;
             }
+            else if (targetBlock.Level == block.Level && targetBlock != block)
+            {
+                BlockContainer.MergeBlocks(targetBlock, block);
+                newPosition = nextPosition;
+                merged = true;
+                canMove = false;
+            }
+            else
+                canMove = false;
         }
 
-        if (moved || merged)
-            BlockContainer.CreateRandomPosition();
+        return (newPosition, moved, merged);
+    }
+
+    private bool IsPositionValid(int position, bool isHorizontal)
+    {
+        int maxSize = isHorizontal ? ArenaSize.SizeX : ArenaSize.SizeY;
+        return position >= 0 && position < maxSize;
+    }
+
+    private Block GetTargetBlock(Block block, int nextPosition, bool isHorizontal)
+    {
+        return isHorizontal
+            ? BlockContainer.GetBlockAt(nextPosition, block.YPosition)
+            : BlockContainer.GetBlockAt(block.XPosition, nextPosition);
+    }
+
+    private int GetCurrentPosition(Block block, bool isHorizontal)
+    {
+        return isHorizontal ? block.XPosition : block.YPosition;
+    }
+
+    private void UpdatePosition(Block block, int newPosition, bool isHorizontal)
+    {
+        if (isHorizontal)
+            block.UpdatePosition(newPosition, block.YPosition);
+        else
+            block.UpdatePosition(block.XPosition, newPosition);
     }
 }

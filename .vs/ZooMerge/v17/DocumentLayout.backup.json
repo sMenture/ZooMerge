@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "E:\\ZooMerge\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|e:\\zoomerge\\zoomerge\\scripts\\block\\blockanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\scripts\\block\\blockanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|e:\\zoomerge\\zoomerge\\scripts\\block\\blockcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\scripts\\block\\blockcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|E:\\ZooMerge\\zoomerge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|e:\\zoomerge\\zoomerge\\scripts\\block\\blockmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\scripts\\block\\blockmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|e:\\zoomerge\\zoomerge\\scripts\\block\\blockcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\scripts\\block\\blockcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|E:\\ZooMerge\\zoomerge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|E:\\ZooMerge\\zoomerge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,36 +38,76 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlockContainer.cs",
+              "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockContainer.cs",
+              "RelativeDocumentMoniker": "ZooMerge\\Scripts\\Block\\BlockContainer.cs",
+              "ToolTip": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockContainer.cs",
+              "RelativeToolTip": "ZooMerge\\Scripts\\Block\\BlockContainer.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowEgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T06:37:19.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BlockAnimator.cs",
+              "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockAnimator.cs",
+              "RelativeDocumentMoniker": "ZooMerge\\Scripts\\Block\\BlockAnimator.cs",
+              "ToolTip": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockAnimator.cs",
+              "RelativeToolTip": "ZooMerge\\Scripts\\Block\\BlockAnimator.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwCMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T06:27:51.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlockMover.cs",
+              "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockMover.cs",
+              "RelativeDocumentMoniker": "ZooMerge\\Scripts\\Block\\BlockMover.cs",
+              "ToolTip": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockMover.cs",
+              "RelativeToolTip": "ZooMerge\\Scripts\\Block\\BlockMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T06:21:41.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BlockCreator.cs",
               "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockCreator.cs",
               "RelativeDocumentMoniker": "ZooMerge\\Scripts\\Block\\BlockCreator.cs",
               "ToolTip": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockCreator.cs",
               "RelativeToolTip": "ZooMerge\\Scripts\\Block\\BlockCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T19:26:44.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlockArena.cs",
-              "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockArena.cs",
-              "RelativeDocumentMoniker": "ZooMerge\\Scripts\\Block\\BlockArena.cs",
-              "ToolTip": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockArena.cs",
-              "RelativeToolTip": "ZooMerge\\Scripts\\Block\\BlockArena.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCMAAABZAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ZooMerge\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ZooMerge\\ZooMerge\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ZooMerge\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:08:28.052Z"
+              "WhenOpened": "2025-11-01T10:49:26.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ZooMerge\\MainWindow.xaml",
@@ -66,15 +118,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ZooMerge\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\ZooMerge\\ZooMerge\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ZooMerge\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswB8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "BlockArena.cs",
+              "DocumentMoniker": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockArena.cs",
+              "RelativeDocumentMoniker": "ZooMerge\\Scripts\\Block\\BlockArena.cs",
+              "ToolTip": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockArena.cs",
+              "RelativeToolTip": "ZooMerge\\Scripts\\Block\\BlockArena.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCMAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T10:49:26.782Z"
+              "WhenOpened": "2025-11-01T19:08:28.052Z"
             }
           ]
         }

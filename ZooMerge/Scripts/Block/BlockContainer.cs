@@ -35,6 +35,8 @@ public class BlockContainer
 
         var newBlock = new Block(uiElement, level, xPosition, yPosition);
         _blocksViewer.Add(newBlock);
+
+        new BlockAnimator().AnimateSpawn(uiElement);
     }
 
     public void CreateRandomPosition()
@@ -67,6 +69,8 @@ public class BlockContainer
     {
         block1.UpgradeLevel();
         Remove(block2);
+
+        new BlockAnimator().AnimateMerge(block1.UIElement);
     }
 
     public Block GetBlockAt(int x, int y)

@@ -112,5 +112,14 @@
     <Resource Include="Sprites\level6.png" />
     <Resource Include="Sprites\level7.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\level8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\level9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sprites\level10.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "E:\\ZooMerge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|E:\\ZooMerge\\zoomerge\\scripts\\block\\blockcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|e:\\zoomerge\\zoomerge\\scripts\\block\\blockcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\scripts\\block\\blockcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|e:\\zoomerge\\zoomerge\\scripts\\block\\blockanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|E:\\ZooMerge\\zoomerge\\scripts\\block\\blockanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DF4902A-6E39-4558-A130-27D3D8249748}|ZooMerge\\ZooMerge.csproj|solutionrelative:zoomerge\\scripts\\block\\blockanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,8 +74,7 @@
               "RelativeToolTip": "ZooMerge\\Scripts\\Block\\BlockAnimator.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAiwCoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T06:27:51.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T06:27:51.124Z"
             },
             {
               "$type": "Document",
@@ -97,7 +96,7 @@
               "RelativeDocumentMoniker": "ZooMerge\\Scripts\\Block\\BlockCreator.cs",
               "ToolTip": "E:\\ZooMerge\\ZooMerge\\Scripts\\Block\\BlockCreator.cs",
               "RelativeToolTip": "ZooMerge\\Scripts\\Block\\BlockCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T19:26:44.094Z",
               "EditorCaption": ""

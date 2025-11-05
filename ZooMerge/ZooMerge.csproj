@@ -56,7 +56,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Scripts\Block\Block.cs" />
-    <Compile Include="Scripts\Block\BlockAnimator.cs" />
     <Compile Include="Scripts\Block\BlockArena.cs" />
     <Compile Include="Scripts\Block\BlockContainer.cs" />
     <Compile Include="Scripts\Block\BlockCreator.cs" />
@@ -111,15 +110,6 @@
     <Resource Include="Sprites\level5.png" />
     <Resource Include="Sprites\level6.png" />
     <Resource Include="Sprites\level7.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Sprites\level8.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Sprites\level9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Sprites\level10.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
